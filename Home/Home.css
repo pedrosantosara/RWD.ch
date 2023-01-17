@@ -1,0 +1,69 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  margin : 0;
+  padding: 0;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+#logo{
+  margin-top: 3.5rem;
+  margin-left: 8.0rem;
+  width: 23rem;
+  height: 5.0rem;
+  }
+
+section{
+  display: flex;
+  margin-left: 3.8rem;
+  margin-top: 13.6rem;
+}
+
+section .barrinha{
+width: 1.5rem;
+height: 11.9rem;
+background-color: #F50000;
+margin-right: 1.1rem;
+margin-bottom: 12.6rem;
+}
+
+section .texto h2{
+  color:#F50000;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+section .texto p{
+  color: #616064;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+button{
+  width: 15.2rem;
+  height: 5.6rem;
+  display: flex;
+  border: none;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: linear-gradient(89.71deg, #F50000 -0.08%, #810000 94.23%);
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+button p{
+  margin-right: .8rem;
+}
+
+.crystal img{
+
+  position: absolute;
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+}

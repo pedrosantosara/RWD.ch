@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+:root{
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+section{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  gap: 11rem;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#carrosel{
+  width: 100vw;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 7rem;
+}
+
+.linha{
+  width: .3rem;
+  height: 8.8rem;
+  background-color: #616064;
+  margin-right: 1.5rem;
+  border-radius: 30px;
+}
+
+.textos p{
+  color:#616064;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.textos span p{
+  color: #F50000;
+}
+
+button{
+  width: 15.2rem;
+  height: 5.6rem;
+  display: flex;
+  border: none;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: linear-gradient(89.71deg, #F50000 -0.08%, #810000 94.23%);
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  margin: 7.1rem auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all 1s;
+  cursor: pointer;
+
+}
+button p{
+  margin-right: .8rem;
+}
+
+button:hover{
+  scale: (1.0);
+  transform: scale(1.2);
+}
