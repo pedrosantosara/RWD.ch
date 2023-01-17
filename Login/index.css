@@ -41,6 +41,11 @@ section .texto p{
   font-size: 1.5rem;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
 button{
   width: 15.2rem;
   height: 5.6rem;
