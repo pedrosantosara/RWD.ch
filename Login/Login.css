@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(89.71deg, #F50000 -0.08%, #810000 94.23%);
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    height: 60vh;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.picture {
+    top: 15vh;
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #F50000;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div img {
+    height: 4rem;
+    width: 4rem;
+}
+
+input {
+    color: 616064;
+    display: flex;
+    width: 12rem;
+    border: 2px solid #F50000;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background: white
+}
+
+p {
+    margin-left: 1rem;
+    color: #616064;
+}
+
+.container {
+    display: flex;
+    height: 50vh;
+    width: 60vw;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 2px solid #dedede;
+    border-radius: 1rem;
+    padding: 1rem;
+}
